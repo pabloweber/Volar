@@ -23,7 +23,7 @@
 	color: white;
 	margin-left: 4.5rem;
 	font-variant: small-caps;
-	letter-spacing: 2px;
+	letter-spacing: 5px;
 }
 
 .navbar-nav li a:hover{
@@ -55,5 +55,26 @@
 
 .img{
 	width: 100%;
+}
+
+.hero-logo-container{
+	text-align: center;
+}
+
+#call-to-action-btn{
+	background: transparent;
+	border: 2px solid #3d3d3d;
+	color: #3d3d3d;
+	height: 50px;
+	font-family: "Gotham Bold", sans-serif;
+	font-size: 16px;
+	transition: border 0.4s, color 0.4s;
+	font-variant: small-caps;
+	letter-spacing: 5px;
+}
+
+#call-to-action-btn:hover{
+	border-color: #FDFDFD;
+	color: #FDFDFD;
 }
 
