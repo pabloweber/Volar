@@ -1,12 +1,9 @@
 $(window).ready(function(){
 
-	var scrollTop = $(this).scrollTop();
-
-  	$('#logo-overlay').css({
-   		opacity: function() {
-      		var elementHeight = $(this).height();
-      		return 1 - (elementHeight - scrollTop) / elementHeight;
-    	}
-  	});
+	 	if ($(window).height() < 800) { 
+	 		 $('.fa').addClass('fa-2x');
+	 	} else {
+	 		$('.fa').addClass('fa-3x');
+	 	}
 
 })
