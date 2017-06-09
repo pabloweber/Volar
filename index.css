@@ -96,6 +96,7 @@ html, body{
 	transition: border 0.6s, color 0.4s, background 0.4s;
 	font-variant: small-caps;
 	letter-spacing: 5px;
+	width: 100%;
 }
 
 #call-to-action-btn:hover{
@@ -104,7 +105,7 @@ html, body{
 }
 
 .hero-social-container{
-	width: 100vw;
+	width: 100%;
 	position: absolute;
 	bottom: 5%;	
 }
@@ -145,7 +146,7 @@ i{
 
 .inner-event{
 	background-color: #504f4f;
-	padding: 20px;
+	padding: 30px;
 	text-align: center;
 	font-family: "PT Sans", sans-serif;
 	letter-spacing: 3px;
@@ -182,6 +183,10 @@ i{
     .navbar-brand{
     	display:none;
     }
+
+    .navbar{
+    	position: default;
+    }
 }
 
 @media only screen and (min-width: 763px) and (max-width: 1100px) {
@@ -198,7 +203,7 @@ i{
 
 @media only screen and (min-width: 1501px) {
     .hero-logo-container{
-        width: 500px;
+        width: 350px;
     }
 }
 
@@ -220,6 +225,16 @@ i{
 		width: 1700px;
 	}
 }
+
+
+/* ---------- GHOST FOR DEBUGGING ----------*/
+
+/** {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}*/
+
 
 
 
