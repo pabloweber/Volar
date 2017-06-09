@@ -8,6 +8,9 @@
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="animate.css">
+	<script src="wow.min.js"></script>
+    <script>new WOW().init();</script>
 	<script src="index.js"></script>
 	<link rel="stylesheet" href="index.css">
 </head>
@@ -38,7 +41,7 @@
 
 			<div class="hero col-xs-12">
 				<div class="hero-logo-container">
-					<img id="heroLogo" src="heroLogo.png" alt="" class="img">
+					<img id="heroLogo" src="heroLogo.png" alt="" class="img wow fadeIn" data-wow-duration="1s">
 					<a href="/book"><button id="call-to-action-btn" class="">book a table</button></a>
 				</div>
 
@@ -57,11 +60,11 @@
 			<section class="events">
 				
 				<div class="container container-events">
-					<div class="row events-title">
+					<div class="row events-title wow fadeInDown">
 						<span><h1><strong>UPCOMING EVENTS</strong></h1></span>
 					</div>
 					<div class="row">
-						<div class="col-md-4 event">
+						<div class="col-md-4 event wow fadeIn">
 							<div class="inner-event">
 								<div class="event-headers">COVE X VOLAR</div>
 								<img class="img-responsive event-img" src="covexvolar.jpg" alt="">
@@ -72,7 +75,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4 event">
+						<div class="col-md-4 event wow fadeIn">
 							<div class="inner-event">
 								<div class="event-headers">MOET PARTY</div>
 								<img class="img-responsive event-img" src="volarXmoet.jpg" alt="">
@@ -83,7 +86,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4 event">
+						<div class="col-md-4 event wow fadeIn">
 							<div class="inner-event">
 								<div class="event-headers">OLIVIA DAWN</div>
 								<img class="img-responsive event-img" src="olivia.jpg" alt="">
