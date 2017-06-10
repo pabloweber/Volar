@@ -157,7 +157,7 @@ i{
 	font-family: "PT Sans", sans-serif;
 	letter-spacing: 3px;
 	transition: background 0.2s;
-	box-shadow: 0px 0px 20px 2px rgba(255,45,84,0.7);
+	box-shadow: 0px 0px 25px 2px rgba(255,45,84,0.7);
 }
 
 .inner-event:hover{
@@ -192,6 +192,31 @@ i{
 .after-des{
 	color: white;
 	border-bottom: 1px solid white;
+}
+
+.mentioned{
+	background-color: white;
+	padding: 30px;
+}
+
+.mentioned .col-xs-4 .mentioned-logo-container{
+	height: 65px;
+	display: flex;
+	align-items: center;
+}
+
+.mentioned .col-xs-4 img{
+	display: block;
+    margin: auto;
+    height: 65px;
+}
+
+.mentioned .col-xs-4 #hkclubbing{
+	height: 50px;
+}
+
+.mentioned .col-xs-4 #tripAdvisor{
+	height: 40px;
 }
 
 
