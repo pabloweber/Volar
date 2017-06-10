@@ -8,8 +8,8 @@
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
-	<link rel="stylesheet" href="animate.css">
-	<script src="wow.min.js"></script>
+	<link rel="stylesheet" href="wow/animate.css">
+	<script src="wow/wow.min.js"></script>
     <script>new WOW().init();</script>
 	<script src="index.js"></script>
 	<link rel="stylesheet" href="index.css">
@@ -27,7 +27,7 @@
 					        <span class="icon-bar"></span>
 					        <span class="icon-bar"></span> 
 					    </button>
-						<a href="index.html"><img class="navbar-brand img-responsive" src="logo.png" alt=""></a>
+						<a href="index.html"><img class="navbar-brand img-responsive" src="img/logo.png" alt=""></a>
 					</div>
 					<div class="collapse navbar-collapse" id="myNav">
 						<ul id="navList" class="nav navbar-nav navbar-right">
@@ -40,8 +40,8 @@
 			</nav>
 
 			<div class="hero col-xs-12">
-				<div class="hero-logo-container">
-					<img id="heroLogo" src="heroLogo.png" alt="" class="img wow fadeIn" data-wow-duration="1s">
+				<div class="hero-logo-container wow fadeIn" data-wow-duration="2s">
+					<img id="heroLogo" src="img/heroLogo.png" alt="" class="img">
 					<a href="/book"><button id="call-to-action-btn" class="">book a table</button></a>
 				</div>
 
@@ -64,39 +64,51 @@
 						<span><h1><strong>UPCOMING EVENTS</strong></h1></span>
 					</div>
 					<div class="row">
-						<div class="col-md-4 event wow fadeIn">
-							<div class="inner-event">
-								<div class="event-headers">COVE X VOLAR</div>
-								<img class="img-responsive event-img" src="covexvolar.jpg" alt="">
-								<div class="event-des">
-									<p class="des">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Donec elementum ligula eu sapien consequat eleifend. Donec nec dolor erat, condimentum sagittis sem. Praesent porttitor porttitor risus, dapibus rutrum ipsum gravida et. Integer lectus nisi, facilisis sit amet eleifend nec, pharetra ut augue. Integer quam nunc, consequat nec egestas ac, volutpat ac nisi. Sed consectetur dignissim dignissim. Donec pretium est sit amet ipsum fringilla feugiat. Aliquam erat volutpat. Maecenas scelerisque, orci sit amet cursus tincidunt, libero nisl eleifend tortor, vitae cursus risus mauris vitae nisi. Cras laoreet ultrices ligula eget
-									</p>
-								</div>
+						
+							<div class="col-md-4 event wow fadeIn" data-wow-delay='0.1s'>
+								<a href="#">
+									<div class="inner-event">
+										<div class="event-headers">COVE X VOLAR</div>
+										<img class="img-responsive event-img" src="img/covexvolar.jpg" alt="">
+										<div class="event-des">
+											<p class="des">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Donec elementum ligula eu sapien consequat eleifend. Donec nec dolor erat, condimentum sagittis sem. Praesent porttitor porttitor risus, dapibus rutrum ipsum gravida et. Integer lectus nisi, facilisis sit amet eleifend nec, pharetra ut augue. Integer quam nunc, consequat nec egestas ac, volutpat ac nisi. Sed consectetur dignissim dignissim. Donec pretium est sit amet ipsum fringilla feugiat. Aliquam erat volutpat. Maecenas scelerisque, orci sit amet cursus tincidunt, libero nisl eleifend tortor, vitae cursus risus mauris vitae nisi. Cras laoreet ultrices ligula eget
+											</p>
+										</div>
+									</div>
+								</a>
 							</div>
-						</div>
-						<div class="col-md-4 event wow fadeIn">
-							<div class="inner-event">
-								<div class="event-headers">MOET PARTY</div>
-								<img class="img-responsive event-img" src="volarXmoet.jpg" alt="">
-								<div class="event-des">
-									<p class="des">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Donec elementum ligula eu sapien consequat eleifend. Donec nec dolor erat, condimentum sagittis sem. Praesent porttitor porttitor risus, dapibus rutrum ipsum gravida et. Integer lectus nisi, facilisis sit amet eleifend nec, pharetra ut augue. Integer quam nunc, consequat nec egestas ac, volutpat ac nisi. Sed consectetur dignissim dignissim. Donec pretium est sit amet ipsum fringilla feugiat. Aliquam erat volutpat. Maecenas scelerisque, orci sit amet cursus tincidunt, libero nisl eleifend tortor, vitae cursus risus mauris vitae nisi. Cras laoreet ultrices ligula eget
-									</p>
-								</div>
+						
+						
+							<div class="col-md-4 event wow fadeIn" data-wow-delay='0.1s'>
+								<a href="#">
+									<div class="inner-event">
+										<div class="event-headers">MOET PARTY</div>
+										<img class="img-responsive event-img" src="img/volarXmoet.jpg" alt="">
+										<div class="event-des">
+											<p class="des">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Donec elementum ligula eu sapien consequat eleifend. Donec nec dolor erat, condimentum sagittis sem. Praesent porttitor porttitor risus, dapibus rutrum ipsum gravida et. Integer lectus nisi, facilisis sit amet eleifend nec, pharetra ut augue. Integer quam nunc, consequat nec egestas ac, volutpat ac nisi. Sed consectetur dignissim dignissim. Donec pretium est sit amet ipsum fringilla feugiat. Aliquam erat volutpat. Maecenas scelerisque, orci sit amet cursus tincidunt, libero nisl eleifend tortor, vitae cursus risus mauris vitae nisi. Cras laoreet ultrices ligula eget
+											</p>
+										</div>
+									</div>
+								</a>
 							</div>
-						</div>
-						<div class="col-md-4 event wow fadeIn">
-							<div class="inner-event">
-								<div class="event-headers">OLIVIA DAWN</div>
-								<img class="img-responsive event-img" src="olivia.jpg" alt="">
-								<div class="event-des">
-									<p class="des">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Donec elementum ligula eu sapien consequat eleifend. Donec nec dolor erat, condimentum sagittis sem. Praesent porttitor porttitor risus, dapibus rutrum ipsum gravida et. Integer lectus nisi, facilisis sit amet eleifend nec, pharetra ut augue. Integer quam nunc, consequat nec egestas ac, volutpat ac nisi. Sed consectetur dignissim dignissim. Donec pretium est sit amet ipsum fringilla feugiat. Aliquam erat volutpat. Maecenas scelerisque, orci sit amet cursus tincidunt, libero nisl eleifend tortor, vitae cursus risus mauris vitae nisi. Cras laoreet ultrices ligula eget
-									</p>
-								</div>
-							</div>
-						</div>				
+						
+						
+							<div class="col-md-4 event wow fadeIn" data-wow-delay='0.1s'>
+								<a href="#">
+									<div class="inner-event">
+										<div class="event-headers">OLIVIA DAWN</div>
+										<img class="img-responsive event-img" src="img/olivia.jpg" alt="">
+										<div class="event-des">
+											<p class="des">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Donec elementum ligula eu sapien consequat eleifend. Donec nec dolor erat, condimentum sagittis sem. Praesent porttitor porttitor risus, dapibus rutrum ipsum gravida et. Integer lectus nisi, facilisis sit amet eleifend nec, pharetra ut augue. Integer quam nunc, consequat nec egestas ac, volutpat ac nisi. Sed consectetur dignissim dignissim. Donec pretium est sit amet ipsum fringilla feugiat. Aliquam erat volutpat. Maecenas scelerisque, orci sit amet cursus tincidunt, libero nisl eleifend tortor, vitae cursus risus mauris vitae nisi. Cras laoreet ultrices ligula eget
+											</p>
+										</div>
+									</div>
+								</a>
+							</div>		
+								
 					</div>
 				</div>
 
