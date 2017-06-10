@@ -234,6 +234,10 @@ html, body{
 	background-color: #171717;
 }
 
+.space-img{
+	width: 100%;
+}
+
 
 @media only screen and (max-width: 762px) {
     .hero-logo-container{

@@ -38,4 +38,19 @@ $(document).ready(function(){
 		});
 	})();
 
+	(function changeCarouselContainer(){
+		var win = $(window);
+		if (win.width() >= 1300) { 
+			$('.addContainer').addClass('container');
+		};
+
+		$(window).on('resize', function(){
+		    if (win.width() >= 1300) { 
+		    	$('.addContainer').addClass('container');
+		    } else {
+		    	$('.addContainer').removeClass('container');
+		    }
+		});
+	})();
+
 })
