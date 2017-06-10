@@ -30,4 +30,12 @@ $(document).ready(function(){
 		})
 	})();
 
+	(function scrollToDiv(){
+		$("#nav-events").click(function() {
+    		$('html,body').animate({
+        		scrollTop: $(".events").offset().top},
+        	'slow');
+		});
+	})();
+
 })
