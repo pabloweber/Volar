@@ -14,7 +14,7 @@ $(document).ready(function(){
 
 	(function changeHeightForMobile(){
 		let height = $(window).height();
-		if ($(window).height() < 1000){
+		if ($(window).height() < 3000){
 			$('.landing').css('height', height.toString());
 		}
 	})();
