@@ -296,7 +296,11 @@ html, body{
 .map{
 	width: 100%;
 	background-color: #ff2d54;
-	padding-bottom: 60px;
+	padding-bottom: 40px;
+}
+
+.map .section-title{
+	padding: 0px 15px;
 }
 
 .map-details{
@@ -372,7 +376,6 @@ html, body{
 @media only screen and (max-width: 992px) {
 	.map-des{
 		padding-top: 40px;
-		height: 300px;
 	}
 
 }
