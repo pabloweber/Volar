@@ -294,6 +294,16 @@ html, body{
 	margin-bottom: 15px;
 }
 
+.map{
+	height: 700px;
+	width: 100%;
+	background-color: #ff2d54;
+}
+
+.addContainerMap{
+	height: 100%;
+}
+
 
 @media only screen and (max-width: 762px) {
     .hero-logo-container{

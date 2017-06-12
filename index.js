@@ -53,4 +53,20 @@ $(document).ready(function(){
 		});
 	})();
 
+	(function changeMapContainer(){
+		var win = $(window);
+
+		if (win.width() >= 850) { 
+			$('.addContainerMap').addClass('container');
+		};
+
+		$(window).on('resize', function(){
+		    if (win.width() >= 850) { 
+		    	$('.addContainerMap').addClass('container');
+		    } else {
+		    	$('.addContainerMap').removeClass('container');
+		    }
+		});
+	})();
+
 })
