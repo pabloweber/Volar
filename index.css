@@ -136,7 +136,6 @@ html, body{
 	color: white;
 	letter-spacing: 3px;
 	font-weight: 700;
-
 }
 
 .events-title > span > h1{
@@ -295,13 +294,39 @@ html, body{
 }
 
 .map{
-	height: 700px;
 	width: 100%;
 	background-color: #ff2d54;
+	padding-bottom: 60px;
 }
 
-.addContainerMap{
+.map-details{
+	margin-top: 30px;
+}
+
+.map-des{
 	height: 100%;
+}
+
+.map-details-des{
+	font-family: "PT Sans", sans-serif;
+	font-size: 22px;
+	font-weight: 500;
+	color: white;
+	letter-spacing: 3px;
+}
+
+.map-icon-title{
+	font-family: "PT Sans", sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	color: white;
+	letter-spacing: 3px;
+	margin-left: 10px;
+}
+
+.map-des-inner{
+	display: flex;
+	justify-content: space-around;
 }
 
 
@@ -335,7 +360,32 @@ html, body{
 		padding: 20px;
 	}
 
+	.map-des-inner{
+		flex-direction: column;
+	}
+	
+	.map-des-inner > .col-md-12{
+		padding: 10px;
+	}
 }
+
+@media only screen and (max-width: 992px) {
+	.map-des{
+		padding-top: 40px;
+		height: 300px;
+	}
+
+}
+
+@media only screen and (min-width: 992px) {
+	.map-des-inner{
+		height: 500px;
+		flex-direction: column;
+	}
+
+}
+
+
 
 @media only screen and (min-width: 763px) and (max-width: 1100px) {
     .hero-logo-container{
