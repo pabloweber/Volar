@@ -36,6 +36,12 @@ $(document).ready(function(){
         		scrollTop: $(".events").offset().top},
         	'slow');
 		});
+
+		$("#nav-about, #nav-contact").click(function() {
+    		$('html,body').animate({
+        		scrollTop: $(".footer").offset().top},
+        	'slow');
+		});
 	})();
 
 	(function changeCarouselContainer(){
