@@ -8,6 +8,9 @@ html, body{
 	padding: 0;
 }
 
+
+/* ========== LANDING PAGE SECTION ========== */
+
 .landing{
 	width: 100%;
 	height: 100vh;
@@ -125,6 +128,10 @@ html, body{
 	color: white;
 }
 
+
+
+/* ========== PAGE CONTENT ========== */
+
 .page-content{
 	width: 100%;
 	margin: 0;
@@ -138,6 +145,10 @@ html, body{
 	letter-spacing: 3px;
 	font-weight: 700;
 }
+
+
+
+/* ========== EVENTS SECTION ========== */
 
 .events-title > span > h1{
 		font-size: 40px;
@@ -200,6 +211,10 @@ html, body{
 	border-bottom: 1px solid white;
 }
 
+
+
+/* ========== MENTIONNED SECTION ========== */
+
 .mentioned{
 	background-color: white;
 	padding: 30px;
@@ -229,6 +244,10 @@ html, body{
 	height: 40px;
 }
 
+
+
+/* ========== CAROUSEL SECTION ========== */
+
 .space{
 	width: 100%;
 	background-color: black; 
@@ -247,6 +266,10 @@ html, body{
    padding: 30px;
    color: white;
 }
+
+
+
+/* ========== GALLERY SECTION ========== */
 
 .gallery-container{
 	padding: 40px 7.5px;
@@ -294,6 +317,10 @@ html, body{
 	margin-bottom: 15px;
 }
 
+
+
+/* ========== MAPS SECTION ========== */
+
 .map{
 	width: 100%;
 	background-color: #ff2d54;
@@ -333,6 +360,10 @@ html, body{
 	display: flex;
 	justify-content: space-around;
 }
+
+
+
+/* ========== FOOTER SECTION ========== */
 
 .footer{
 	background-color: #171717;
@@ -389,6 +420,11 @@ html, body{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	color: white;
+}
+
+.social-footer-container i {
+	color: white;
 }
 
 .footer-logo-container{
@@ -403,6 +439,11 @@ html, body{
 	margin: 0 auto;
 }
 
+
+
+
+
+/* ========== MEDIA QUERIES ========== */
 
 @media only screen and (max-width: 762px) {
     .hero-logo-container{
@@ -511,7 +552,7 @@ html, body{
 }
 
 
-/* ---------- GHOST FOR DEBUGGING ----------*/
+/* ---------- GHOST FOR DEBUGGING ---------- */
 
 /** {
   background: #000 !important;
