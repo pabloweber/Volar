@@ -333,6 +333,75 @@ html, body{
 	justify-content: space-around;
 }
 
+.footer{
+	background-color: #171717;
+	padding: 50px 25px 25px 25px;
+}
+
+.footer-sec-title{
+	text-align: center;
+	font-variant: small-caps;
+	padding-bottom: 10px;
+}
+
+.footer-sec-content{
+	padding: 20px;
+	color: white;
+	font-family: "PT Sans", sans-serif;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+.input-container{
+	display: flex;
+	margin-top: 20px;
+}
+
+.footer-email{
+	display: inline-block;
+	margin-bottom: 15px;
+}
+
+.newsletter-input{
+	height: 40px;
+	outline: 0;
+	border-style: none;
+	color: black;
+	padding: 10px;
+	flex: 1;
+}
+
+.newsletter-btn{
+	height: 40px;
+	background-color: #ff2d54;
+	border-radius: 0;
+	outline: 0;
+	border-style: none;
+	padding: 15px;
+	margin-left: 5px;
+	font-family: "PT Sans", sans-serif;
+	line-height: 11px;
+}
+
+.social-footer-container{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.footer-logo-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer-logo{
+	height: 250px;
+	width: 250px;
+	margin: 0 auto;
+}
+
 
 @media only screen and (max-width: 762px) {
     .hero-logo-container{
@@ -376,6 +445,10 @@ html, body{
 @media only screen and (max-width: 992px) {
 	.map-des{
 		padding-top: 40px;
+	}
+
+	.footer-logo-container{
+		display: none;
 	}
 
 }
