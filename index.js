@@ -53,4 +53,12 @@ $(document).ready(function(){
 		});
 	})();
 
+	(function setFooterLogoHeight(){
+		$('.footer-logo-container').css('height', $('.heightToCopy').height());
+		
+		$(window).on('resize', function(){
+		    	$('.footer-logo-container').css('height', $('.heightToCopy').height());
+		});
+	})();
+
 })
